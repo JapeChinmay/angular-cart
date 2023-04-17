@@ -1,0 +1,19 @@
+<header>
+  <nav
+    class="flex items-center justify-between gap-6 flex-wrap bg-gradient-to-r from-sky-200 via-sky-300 to-sky-400 p-6 max-h-56"
+  >
+    <div
+      class="flex flex-wrap flex-shrink text-slate-600 lg:flex-shink justify-between items-center"
+    >
+      <h2 class="font-semibold text-center">Tropical Shop</h2>
+      <div
+        class="flex justify-end items-center max-w-screen-2xl ml-10 flex-grow-1 lg:flex-row sm:flex-col flex-shrink"
+      >
+        <h3 routerLink="home" class="mr-2 hover:cursor-pointer">Home</h3>
+        <h3 routerLink="cart" class="ml-2 hover:cursor-pointer">Cart</h3>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
+</header>
